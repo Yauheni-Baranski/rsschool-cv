@@ -1,3 +1,3 @@
 # rsschool-cv
 
-https://Yauheni-Baranski.io/rsschool-cv/cv
+https://Yauheni-Baranski.github.io/rsschool-cv/cv

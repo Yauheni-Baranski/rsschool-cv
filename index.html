@@ -1,147 +1,458 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>
-            Yauheni Baranski CV
-        </title>
-        <style>
-            .container {
-                max-width: 1024px;
-                margin: 0 auto;
-            }
-            h2 {
-                color:blue;
-                font-size: 15 px;
-                font-family: 'Times New Roman', Times, serif;
-                font-weight: 400;
-            }
-        </style>
-    </head>
-    <body>
-        <main class="container">
-            <h1>Yauheni Baranski</h1>
-            <img src="photo.png" alt="Profile Photo" width="200 px" height="200 px">
-            <p>
-                Located in <strong>Minsk, Belarus</strong>
-                <ul>
-                    <li>
-                        <em>Mob</em>: <a href="tel:+375336665678">+375(33)666-56-78</a>
-                    </li>
-                    <li>
-                        <em>Email</em>: <a href="mailto:jaquesloh@gmail.com">jaquesloh@gmail.com</a>
-                    </li>
-                    <li>
-                        <em>GitHub</em>: <a href="https://github.com/jaquesloh">https://github.com/jaquesloh</a>
-                    </li>
-                </ul>
-            </p>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Yauheni Baranski CV</title>
+    <style>
+      .container {
+        max-width: 1024px;
+        margin: 0 auto;
+      }
+      .sidebar {
+        position: absolute;
+        top: 0;
+        width: 300px;
+        height: 1935px;
+        background-color: rgb(88, 88, 96);
+      }
+      .hero-container {
+        max-width: 800px;
+        margin: 140px 20px 0 320px;
+      }
 
-            <section>
-                <h2>Summary</h2>
-                <p>
-                    I’m strongly aiming to start up a new career as a Junior Front-End Developer in It industry this year. My
-                    strive
-                    is to contribute the best part of my knowledge and skills developed through my past life and work experience
-                    to
-                    the field which is making great products, giving you constant challenges, but also new knowledge and
-                    personal
-                    growth in return. I’m a highly motivated, stress-resistant person, willing to get new knowledge and
-                    competencies, who understands the importance of teamwork and customer-focused approach.
-                </p>
-            </section>
+      header {
+        position: absolute;
+        top: 25px;
+        left: 160px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+      header * {
+        color: wheat;
+      }
+      header p {
+        font-size: 16px;
+      }
+      h1 {
+        font-size: 38px;
+      }
+      h2 {
+        font-size: 30px;
+        color: blue;
+      }
+      h3 {
+        font-size: 20px;
+        color: blue;
+      }
+      h4 {
+        color: wheat;
+      }
+      h6 {
+        align-self: flex-end;
+        position: absolute;
+        bottom: -1107px;
+        left: 690px;
+      }
+      h2 ~ p {
+        font-size: 19px;
+      }
+      .hero-photo {
+        height: 200px;
+        width: 200px;
+        border-radius: 50%;
+      }
+      .contact-info {
+        padding-left: 13px;
+        margin: 0;
+      }
+      ul li {
+        margin: 20px 0;
+        font-size: 16px;
+      }
+      ul ~ li {
+        font-size: 15px;
+      }
+      ul {
+        align-self: flex-end;
+      }
+      footer {
+        display: flex;
+        flex-direction: row;
+      }
+      footer a {
+        display: flex;
+        align-items: center;
+      }
+      footer a img {
+        width: 30px;
+        height: 30px;
+      }
+      #rs-school_image {
+        width: 150px;
+        height: 150px;
+      }
+      #rs-school {
+        display: flex;
+        flex-direction: column;
+        margin-left: 60px;
+        margin-right: 150px;
+        width: 150px;
+        height: 72px;
+      }
+      #Git-logo {
+        margin-right: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="container">
+      <div class="sidebar"></div>
+      <section class="hero-container">
+        <header>
+          <h1>Yauheni Baranski</h1>
+          <img class="hero-photo" src="assets/photo.png" alt="Profile Photo" />
+          <p>Located in <b>Minsk, Belarus</b></p>
 
-            <section>
-                <h2>Skills</h2>
-                <p>
-                    Within past 2 weeks I’ve finished:
-                    <ul>
-                        <li>HTML Basics</li>
-                        <li>CSS Basics</li>
-                        <li>JavaScript Basics</li>
-                    </ul>
-                    on <a href="https://ru.code-basics.com/">Code Basics</a>
-                </p>
-                <p>
-                    At the moment I’m further developing my skills in HTML, CSS and JavaScript and learning Git and other
-                    surrounding Web technologies.
-                </p>
-            </section>
+          <ul class="contact-info">
+            <li>
+              <i>Mob</i>: <br /><a href="tel:+375336665678"
+                >+375(33)666-56-78</a
+              >
+            </li>
+            <li>
+              <i>Email</i>:<br /><a href="mailto:jaquesloh@gmail.com"
+                >Yauheni.Baranski@gmail.com</a
+              >
+            </li>
+            <li>
+              <i>GitHub</i>:<br />
+              <a href="https://github.com/jaquesloh"
+                >https://github.com/Yauheni-Baranski</a
+              >
+            </li>
+          </ul>
+        </header>
+        <section>
+          <h2>Summary</h2>
+          <p>
+            I’m strongly aiming to start up a new career as a Junior Front-End
+            Developer in IT industry this year. My strive is to contribute the
+            best part of my knowledge and skills developed through my past life
+            and work experience to the field which is making great products,
+            giving you constant challenges, but also new knowledge and personal
+            growth in return. I’m a highly motivated, stress-resistant person,
+            willing to get new knowledge and competencies, who understands the
+            importance of teamwork and customer-focused approach.
+          </p>
+          <hr />
+        </section>
 
-            <section>
-                <h2>Code Examples</h2>
-                <code> 
-                    <pre>
-                        function removeChar(str) {
-                            if (str.length >= 3) {
-                                return str.slice(1, -1);
-                            } else {
-                                return str;
+        <section>
+          <h2>Skills</h2>
+          <p>Within past 2 weeks I’ve finished:</p>
+          <ul>
+            <li>HTML Basics</li>
+            <li>CSS Basics</li>
+            <li>JavaScript Basics</li>
+          </ul>
+          <p>on <a href="https://ru.code-basics.com/">Code Basics</a></p>
+          <p>
+            At the moment I’m further developing my skills in HTML, CSS and
+            JavaScript and learning Git and other surrounding Web technologies.
+          </p>
+          <hr />
+        </section>
+
+        <section>
+          <h2>Code Examples</h2>
+          <details>
+            <summary>My code example here</summary>
+            <pre>
+                        class Calculator {
+                            constructor(previousOperandTextElement, currentOperandTextElement) {
+                              this.previousOperandTextElement = previousOperandTextElement;
+                              this.currentOperandTextElement = currentOperandTextElement;
+                              this.operations = {
+                                add: "+",
+                                substract: "-",
+                                multiply: "*",
+                                divide: "/",
+                                exponentiation: "x\u207F",
+                              };
+                              this.clear();
                             }
-                        };
-                    </pre>
-                </code>
-            </section>
+                          
+                            clear() {
+                              this.currentOperand = "";
+                              this.previousOperand = "";
+                              this.operation = "";
+                              this.toReset = false;
+                            }
+                          
+                            delete() {
+                              this.currentOperand = this.currentOperand.slice(0, -1);
+                              if (this.currentOperand === "-") {
+                                this.currentOperand = "";
+                              }
+                            }
+                          
+                            addDigit(digit) {
+                              if (this.toReset) {
+                                this.clear();
+                              }
+                          
+                              if (digit === ".") {
+                                if (this.currentOperand.includes(".")) {
+                                  return;
+                                }
+                          
+                                this.currentOperand = `${this.currentOperand || "0"}.`;
+                                return;
+                              }
+                          
+                              this.currentOperand = `${
+                                this.currentOperand === "0" ? "" : this.currentOperand
+                              }${digit}`;
+                            }
+                          
+                            chooseOperationFunction(operation) {
+                              if (this.currentOperand === "") {
+                                return;
+                              }
+                          
+                              if (operation === "negate") {
+                                if (this.currentOperand !== "0") {
+                                  if (this.currentOperand[0] === "-") {
+                                    this.currentOperand = this.currentOperand.slice(1);
+                                  } else {
+                                    this.currentOperand = `-${this.currentOperand}`;
+                                  }
+                                }
+                                return;
+                              }
+                          
+                              const isEqualsOperation = operation === "equals";
+                          
+                              if (this.previousOperand !== "") {
+                                this.calculate();
+                          
+                                if (isEqualsOperation) {
+                                  this.toReset = true;
+                                  return;
+                                }
+                              } else {
+                                if (isEqualsOperation) {
+                                  return;
+                                }
+                              }
+                          
+                              if (operation === "squareroot") {
+                                if (this.currentOperand &lt; 0) {
+                                  this.currentOperand = "error";
+                                } else {
+                                  this.currentOperand = `${Math.sqrt(this.currentOperand)}`;
+                                }
+                                this.toReset = true;
+                                return;
+                              }
+                          
+                              this.operation = operation;
+                              if (Number.isInteger(+this.currentOperand)) {
+                                this.previousOperand = Math.trunc(this.currentOperand);
+                              } else {
+                                this.previousOperand = this.currentOperand;
+                              }
+                              this.currentOperand = "";
+                              this.toReset = false;
+                            }
+                          
+                            calculate() {
+                              let calculation;
+                              const previous = parseFloat(this.previousOperand);
+                              const current = parseFloat(this.currentOperand);
+                              if (isNaN(previous) || isNaN(current)) {
+                                return;
+                              }
+                          
+                              switch (this.operation) {
+                                case "exponentiation":
+                                  calculation = previous ** current;
+                                  break;
+                                case "add":
+                                  calculation = previous + current;
+                                  break;
+                          
+                                case "substract":
+                                  calculation = previous - current;
+                          
+                                  break;
+                          
+                                case "multiply":
+                                  calculation = previous * current;
+                                  break;
+                          
+                                case "divide":
+                                  calculation = previous / current;
+                                  break;
+                          
+                                default:
+                                  return;
+                              }
+                          
+                              this.currentOperand = `${+calculation.toPrecision(8)}`;
+                              this.operation = "";
+                              this.previousOperand = "";
+                            }
+                          
+                            updateOutput() {
+                              this.currentOperandTextElement.innerText = this.currentOperand;
+                              this.previousOperandTextElement.innerText = this.previousOperand;
+                              if (this.operation) {
+                                this.previousOperandTextElement.innerText = `${this.previousOperand} ${
+                                  this.operations[this.operation]
+                                }`;
+                              }
+                            }
+                          }
+                          
+                          const digitsBtn = document.querySelectorAll("[data-digit]");
+                          const operationsBtn = document.querySelectorAll("[data-operation]");
+                          const clearBtn = document.querySelector("[data-all-clear]");
+                          const deleteBtn = document.querySelector("[data-delete]");
+                          const currentOperandTextElement = document.querySelector(
+                            "[data-current-operand]"
+                          );
+                          const previousOperandTextElement = document.querySelector(
+                            "[data-previous-operand]"
+                          );
+                          
+                          const calculator = new Calculator(
+                            previousOperandTextElement,
+                            currentOperandTextElement
+                          );
+                          
+                          digitsBtn.forEach((button) => {
+                            button.addEventListener("click", () => {
+                              calculator.addDigit(button.innerText);
+                              calculator.updateOutput();
+                            });
+                          });
+                          
+                          deleteBtn.addEventListener("click", () => {
+                            calculator.delete();
+                            calculator.updateOutput();
+                          });
+                          
+                          clearBtn.addEventListener("click", () => {
+                            calculator.clear();
+                            calculator.updateOutput();
+                          });
+                          
+                          operationsBtn.forEach((button) => {
+                            button.addEventListener("click", () => {
+                              calculator.chooseOperationFunction(button.dataset.operation);
+                              calculator.updateOutput();
+                            });
+                          });
+                    </pre
+            >
+          </details>
+          <hr />
+        </section>
 
-            <section>
-                <h2>Experience</h2>
-                <p>
-                    <ul>
-                        <li> 
-                            <strong>2003-2005 - Smorgon Secondary School N1, <em>Smorgon, Belarus</em></strong><br>
-                            a teacher of English and German
-                        </li>
-                        <li>
-                            <strong>2005-2006 - Specialized Rehabilitation Clinic Herzogenaurach, <em>Herzogenaurach, Germany</em></strong><br>
-                            a participant of the <em>"Volunteer Social Year In Germany"</em> program
-                        </li>
-                        <li>
-                            <strong>2006-2007 - Smorgon School For Disabled and Orphans, <em>Smorgon, Belarus</em></strong><br>
-                            a teacher of English and German
-                        </li>
-                        <li>
-                            <strong>2007-2018 - Carnival Cruise Lines</strong><br>
-                            Team Headwaiter
-                        </li>
-                        <li>
-                            <strong>2018-2020 - Youlong Bilingual and Arts Kindergarten, <em>Beijing, China</em></strong><br>
-                            a teacher of English 
-                        </li>
-                    </ul>
-                </p>
-            </section>
+        <section>
+          <h2>Experience</h2>
+          <ul>
+            <li>
+              <strong
+                >2003-2005 - Smorgon Secondary School N1,
+                <i>Smorgon, Belarus</i></strong
+              ><br />
+              a teacher of English and German
+            </li>
+            <li>
+              <strong
+                >2005-2006 - Specialized Rehabilitation Clinic Herzogenaurach,
+                <i>Herzogenaurach, Germany</i></strong
+              ><br />
+              a participant of the
+              <i>"Volunteer Social Year In Germany"</i> program
+            </li>
+            <li>
+              <strong
+                >2006-2007 - Smorgon School For Disabled and Orphans,
+                <i>Smorgon, Belarus</i></strong
+              ><br />
+              a teacher of English and German
+            </li>
+            <li>
+              <b>2007-2018 - Carnival Cruise Lines</b><br />
+              Team Headwaiter
+            </li>
+            <li>
+              <strong
+                >2018-2020 - Youlong Bilingual and Arts Kindergarten,
+                <i>Beijing, China</i></strong
+              ><br />
+              a teacher of English
+            </li>
+          </ul>
+          <hr />
+        </section>
+        <section>
+          <h2>Education and Certificates</h2>
+          <ul>
+            <li>
+              <strong
+                >1998-2003 - Yanka Kupala Grodno State University,
+                <i>Grodno, Belarus</i></strong
+              ><br />
+              Bachelor degree in teaching English and German as a second
+              language
+            </li>
+            <li>
+              <strong
+                >2005-2006 - Goethe Institut, <i>Erlangen, Germany</i></strong
+              ><br />
+              Kleines Deutches Sprachdiplom (advanced level)
+            </li>
+          </ul>
+          <hr />
+        </section>
+        <section>
+          <h2>English level</h2>
+          <p>English proficiency level is B2.</p>
 
-            <section>
-                <h2>Education and Certificates</h2>
-                <p>
-                    <ul>
-                        <li>
-                            <strong>1998-2003 - Yanka Kupala Grodno State University, <em>Grodno, Belarus</em></strong><br>
-                            Bachelor degree in teaching English and German as a second language
-                        </li>
-                        <li>
-                            <strong>2005-2006 - Goethe Institut, <em>Erlangen, Germany</em></strong><br>
-                            Kleines Deutches Sprachdiplom (advanced level)
-                        </li>
-                    </ul>
-                </p>
-            </section>
-            
-            <section>
-                <h2>English level</h2>
-                <p>
-                    English proficiency level is C1.
-                </p>
-                <p>
-                    Communication experience:
-                    <ul>
-                        <li>Working for 11 years on a cruise ship in the USA</li>
-                        <li>Teaching English for 2 years in Beijing</li>
-                        <li>University studies</li>
-                    </ul>
-                </p>
-            </section>
-        </main>
-    </body>
+          <h3>Communication experience:</h3>
+          <ul>
+            <li>Working for 11 years on a cruise ship in the USA</li>
+            <li>Teaching English for 2 years in Beijing</li>
+            <li>University studies</li>
+          </ul>
+          <hr />
+        </section>
+      </section>
+      <footer>
+        <!-- <h4>Follow us: </h4> -->
+        <a id="rs-school" href="https://rs.school/js/">
+          <img
+            id="rs-school_image"
+            src="assets/rs_school_js(1).svg"
+            alt="Rs School Logo"
+          />https://rs.school/js/</a
+        >
+        <a href="https://github.com/Yauheni-Baranski">
+          <img
+            id="Git-logo"
+            src="assets/iconmonstr-github-1.svg"
+            alt="My Github Profile"
+          />https://github.com/Yauheni-Baranski</a
+        >
+        <h6>&copy; 2021 by Yauheni Baranski</h6>
+      </footer>
+    </main>
+  </body>
 </html>
